@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Earning</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="company.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row header">
+            <img src="logo.jpg" height="60" width="200" id="logo" />
+            <img src="https://img.icons8.com/material/24/000000/menu--v1.png" id="menuIcon" />
+        </div>
+        <div class="row">
+            <div class="col-md-2 leftBar">
+                <center>
+                    <img src="https://img.icons8.com/bubbles/100/000000/company.png" /><br />
+                    <p id="title">Company Name<br />Designation</p><br />
+                </center>
+
+                <p id="navText">MAIN NAVIGATION</p>
+                <input type="button" class="leftBtn" value="Dashboard" id="this" /><br />
+                <input type="button" class="leftBtn" href="latestLransactions.html" value="Transactions" /><br />
+            </div>
+            <div class="col-md-10 choices">
+                <center>
+                    <button class="topMenu" onclick=salesRedirect();><img src="https://img.icons8.com/bubbles/50/000000/bullish.png" /><br />Sales</button>
+                    <button class="topMenu" onclick=earningRedirect();><img src="https://img.icons8.com/bubbles/50/000000/sales-performance.png"><br />Earnings </button>
+                    <button class="topMenu" onclick=statisticsRedirect();><img src="https://img.icons8.com/bubbles/50/000000/statistics.png"><br />Statistics </button>
+                    <button class="topMenu" onclick=searchRedirect();><img src="https://img.icons8.com/bubbles/50/000000/google-web-search.png"><br />Search </button>
+                    <button class="topMenu" onclick=settingsRedirect();><img src="https://img.icons8.com/bubbles/50/000000/settings.png"><br />Settings </button>
+                </center>
+            </div>
+        </div>
+    </div>
+    <script>
+        function salesRedirect() {
+            window.location.href = "sales.html";
+        } function earningRedirect() {
+            window.location.href = "earning.html";
+        } function statisticsRedirect() {
+            window.location.href = "statistics.html";
+        } function searchRedirect() {
+            window.location.href = "search.html";
+        } function settingsRedirect() {
+            window.location.href = "settings.html";
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>

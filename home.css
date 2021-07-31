@@ -1,0 +1,53 @@
+﻿body {
+    position: page;
+    background-image: url("front.jpeg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+
+.button1 {
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 55px 5px 0px 5px;
+    padding: 8px 25px 8px 25px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    opacity: 0.9;
+}
+.button1:active{
+    transform: scale(0.9);
+    opacity: 0.8;
+}
+.button1:hover{
+    opacity: 1;
+}
+#login:hover{
+    color: orangered !important;
+    font: bold !important;
+}
+
+#logo{
+    margin: 40px 0px 0px 40px;
+    height: 65px;
+    width: 250px;
+}
+
+h2{
+    font: large bold;
+    color: darkblue;
+}
+#body {
+    font-family: Georgia;
+}
+#content {
+    margin: 70px -40px 0px 40px;
+    opacity: 0.9;
+}
+
+#foot{
+    margin: 70px 0px 0px 40px;
+    opacity:0.85;
+}

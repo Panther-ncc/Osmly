@@ -1,0 +1,77 @@
+﻿body {
+    background-color: #282a36;
+}
+
+
+
+.rightBtn {
+    width: 100%;
+    padding: 5px 0px;
+    margin: 3px 0px;
+    color: white;
+    background-color: #282a36;
+    border-right: none;
+    border-top: none;
+    border-color: #616771;
+}
+.rightBar{
+    margin-top: 40px;
+    margin-left: 1100px;
+    position: fixed;
+   
+}
+
+.leftBar {
+    position: fixed;
+    height: 80vw;
+    width: 100%;
+    margin: 50px 0px;
+}
+.leftBtn {
+    width: 100%;
+    color: white;
+    margin: 5px 0px 5px 0px;
+    padding: 8px 0px;
+    border-color: #282a36;
+    border-style: none;
+    background-color: #282a36;
+}
+.leftBtn:hover, .rightBtn:hover {
+    background-color: #616771;
+}
+
+.header {
+    background-color: white;
+}
+
+.topMenu {
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    margin: 10px 5px 0px 0px;
+}
+.choices{
+    padding-left: 250px;
+}
+.ststChoices, .salesChoices {
+    margin-left: 400px;
+}
+
+.workingArea{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+button:hover {transform: scale(0.98);}
+
+#logo {margin: 5px 5px 5px 10px;}
+#menuIcon{height: 25px; width: 20px; margin: 23px 0px 23px 20px;}
+#menuIcon:hover{transform: scale(0.9);}
+#navText {
+    color: white;
+    opacity: 0.5;
+    padding-top: 5px;
+    border-top: solid 3px white;
+}
+#title{color: white;}
+#this {background-color: #616771 !important;}
+#series_chart_div{height: 300px !important; width:600px !important; margin: 25px 0px 0px -50px;}

@@ -1,0 +1,75 @@
+﻿#login{
+    background-image: url("loginPic.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px -300px; 
+    background-size: 100%;
+}
+#register { 
+    background-image: url("register.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px -300px;
+}
+#body {
+    font-family: Georgia;
+    margin: 50px 0px 0px 65px;
+    border: hidden;
+    padding: 25px 0px 35px 25px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    opacity: 0.98;
+}
+.required{
+    color: red;
+}
+.btn {
+    width: 90%;
+    border-radius: 25px;
+    opacity: 1;
+    color: aliceblue !important;
+    font: bold 17px Georgia !important;
+    border: solid thin !important;
+    background-color: darkorange !important;
+    border-color: orangered  !important;
+}
+.btn:hover{
+    box-shadow: rgba(128, 128, 128, 0.5) 4px 2px;
+}
+.btn:active{
+    transform: scale(0.95);
+}
+
+#back{
+    color: darkblue;
+    font-size: 12px;
+    float: left;
+}
+
+label {
+    font: bold 20px;
+    color: black;
+}
+
+.in {
+    width: 90%;
+    color: black;
+    font: normal 20px Gabriola;
+    padding: 2px 0px 0px 10px;
+    border: thin solid gray;
+    border-radius: 3px;
+}
+
+.icon {
+    background-color: dimgrey;
+    padding: 10px;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-container{
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    margin-bottom: 15px;
+}
