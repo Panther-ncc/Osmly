@@ -16,15 +16,15 @@ catch(PDOException $e){
 
 $link=mysqli_connect("localhost","root","");
 mysqli_select_db($link,"projdatabase");
-$result=mysqli_query($link,"select * from users where username='$user' and password='$pass' " ) ;
+$result=mysqli_query($link,"select * from users where Username='$user' and Password='$pass' " ) ;
 if (!$result) {
     printf("Error: %s\n", mysqli_error($link));
     exit();
 }
 $row=mysqli_fetch_array($result);
 
-if($row['username']==$user && $row['password']==$pass) {
-    echo "Login Successful   Welcome " .$row['username'];
+if($row['username']==$user && $row['Password']==$pass) {
+    echo "Login Successful   Welcome " .$row['Username'];
     header('location:search.html');
 }
         else {
