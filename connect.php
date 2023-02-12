@@ -23,7 +23,7 @@ if (!$result) {
 }
 $row=mysqli_fetch_array($result);
 
-if($row['username']==$user && $row['Password']==$pass) {
+if($row['Username']==$user && $row['Password']==$pass) {
     echo "Login Successful   Welcome " .$row['Username'];
     header('location:search.html');
 }
